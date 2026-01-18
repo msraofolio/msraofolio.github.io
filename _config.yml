@@ -1,0 +1,38 @@
+title: "Malavika Rao – Senior Technical Writer"
+description: "Portfolio, case studies, and docs-as-code samples"
+theme: jekyll-theme-minimal
+
+# Navigation (works with themes that support nav)
+nav:
+  - Home: index.md
+  - Portfolio: portfolio.md
+  - Case Studies: case-studies/index.md
+  - How I Work: how-i-work.md
+  - Contact: contact.md
+
+# Markdown + Jekyll settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Include custom CSS
+sass:
+  style: compressed
+
+include:
+  - assets/css
+
+# Exclude files/folders you don’t want published
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Permalinks for clean URLs
+permalink: pretty
+
+# Plugins (GitHub Pages supports only these)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
