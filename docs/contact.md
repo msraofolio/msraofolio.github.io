@@ -1,8 +1,9 @@
 ---
 layout: default
-title: How I Work
+title: Contact Me
 ---
 
-You can contact me at:
-* Email: malavikaraos@gmail.com
-* Phone: +1 (407) 760-6606
+# Contact Information
+
+- **Email**: malavikaraos@gmail.com
+- **Cell**: +1 (407) 760-6606
