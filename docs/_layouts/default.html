@@ -21,29 +21,29 @@
 
       <ul>
         <li>
-          <a href="/index.html"
-             class="{% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">
+          <a href="{{ '/' | relative_url }}"
+             class="{% if page.url == '/' %}active{% endif %}">
              Home
           </a>
         </li>
 
         <li>
-          <a href="/portfolio.html"
-             class="{% if page.url == '/' or page.url == '/portfolio.html' %}active{% endif %}">
+          <a href="{{ '/portfolio/' | relative_url }}"
+             class="{% if page.url == '/portfolio/' %}active{% endif %}">
              Portfolio
           </a>
         </li>
 
         <li>
-          <a href="/how-i-work.html"
-             class="{% if page.url == '/how-i-work.html' %}active{% endif %}">
+          <a href="{{ '/how-i-work/' | relative_url }}"
+             class="{% if page.url == '/how-i-work/' %}active{% endif %}">
              How I Work
           </a>
         </li>
 
         <li>
-          <a href="/contact.html"
-             class="{% if page.url == '/contact.html' %}active{% endif %}">
+          <a href="{{ '/contact/' | relative_url }}"
+             class="{% if page.url == '/contact/' %}active{% endif %}">
              Contact
           </a>
         </li>
@@ -52,34 +52,33 @@
       <h3>Case Studies</h3>
       <ul>
         <li>
-          <a href="/case-studies/index.html"
-             class="{% if page.url == '/case-studies/' or page.url == '/case-studies/index.html' %}active{% endif %}">
+          <a href="{{ '/case-studies/' | relative_url }}"
+             class="{% if page.url == '/case-studies/' %}active{% endif %}">
              Overview
           </a>
         </li>
 
         <li>
-          <a href="/case-studies/api-integration.html"
-             class="{% if page.url == '/case-studies/api-integration.html' %}active{% endif %}">
+          <a href="{{ '/case-studies/api-integration/' | relative_url }}"
+             class="{% if page.url == '/case-studies/api-integration/' %}active{% endif %}">
              API Integration
           </a>
         </li>
 
         <li>
-          <a href="/case-studies/troubleshooting-guide.html"
-             class="{% if page.url == '/case-studies/troubleshooting-guide.html' %}active{% endif %}">
+          <a href="{{ '/case-studies/troubleshooting-guide/' | relative_url }}"
+             class="{% if page.url == '/case-studies/troubleshooting-guide/' %}active{% endif %}">
              Troubleshooting Guide
           </a>
         </li>
 
         <li>
-          <a href="/case-studies/template.html"
-             class="{% if page.url == '/case-studies/template.html' %}active{% endif %}">
+          <a href="{{ '/case-studies/template/' | relative_url }}"
+             class="{% if page.url == '/case-studies/template/' %}active{% endif %}">
              Template
           </a>
         </li>
       </ul>
-
     </nav>
 
     <!-- Main Content -->
