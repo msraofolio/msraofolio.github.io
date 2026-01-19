@@ -6,6 +6,8 @@ title: Home
 # Malavika Rao  
 ### Senior Technical Writer · Docs-as-Code Specialist · AI-Driven Documentation
 
+#Testing my Changes
+
 I create clear, scalable, and user‑centered documentation for complex systems — from internal tools and APIs to enterprise SaaS platforms. My work blends technical depth, information architecture, and a strong focus on developer empathy.
 
 My approach is shaped by:
