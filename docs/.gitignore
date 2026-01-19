@@ -1,0 +1,20 @@
+# Jekyll build artifacts
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+*.swp
+
+# Bundler / gems
+.bundle/
+vendor/bundle/
+
+# Logs and temp
+*.log
+*.tmp

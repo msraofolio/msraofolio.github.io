@@ -13,7 +13,7 @@ A curated selection of writing samples that demonstrate my range across technica
 
 - **API Integration Guide**  
   End-to-end walkthrough of authentication, endpoints, and error handling.  
-  → [Read the case study](case-studies/api-integration.md)
+  → [Read the case study](/case-studies/api-integration/)
 
 - **SDK Quickstart (Sample)**  
   A concise onboarding guide designed to get developers productive in minutes.  
@@ -37,7 +37,7 @@ A curated selection of writing samples that demonstrate my range across technica
 
 - **Troubleshooting Guide**  
   A structured, root-cause-first approach to diagnosing and resolving common issues.  
-  → [Read the case study](case-studies/troubleshooting-guide.md)
+  → [Read the case study](/case-studies/troubleshooting-guide/)
 
 ---
 
