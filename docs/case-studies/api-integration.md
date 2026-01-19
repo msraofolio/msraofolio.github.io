@@ -14,11 +14,17 @@ While developers use APIs on a day-to-day basis, they also struggle with simple 
 
 ## Poorly Documented APIs
 
-* List the applications that need to be connected.
+Poorly documented APIs do not contain important information that developers need to execute API queries quickly and successfully.
 
-* Obtain licenses to access the data and accounts for API authentication in both the applications.
+### Missing Header Information
 
-* Open the relevant API Reference Documentation.
+If the header information in API documentation do not contain accurate software versions, payload rate limits, and formats, developers craft wrong API requests that do not work.
+
+Also authentication information is part of an API header, and if the header is incorrect, then authentication fails too.
+
+### Incomplete Attributes or Parameters List
+
+If the API documentation does not exhaustively list all the applicable parameters, then developers cannot 
 
 
 ## Overview

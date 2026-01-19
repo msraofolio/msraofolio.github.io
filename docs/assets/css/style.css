@@ -1,0 +1,4 @@
+/* Paragraph spacing fix */
+p {
+  margin-bottom: 1.2rem;
+}
