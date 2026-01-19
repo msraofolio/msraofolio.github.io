@@ -9,18 +9,42 @@ redirect_from:
 
 A curated selection of writing samples that demonstrate my range across technical, architectural, and user-facing documentation. Each piece reflects my focus on clarity, structure, and developer empathy.
 
----
-
-## 📘 API & Developer Documentation
-
 - **API Integration Guide**  
-  End-to-end walkthrough of authentication, endpoints, and error handling.  
+  A comparison between poor API documentation and good API documentation.  
   → [Read the case study](/case-studies/api-integration/)
 
-- **SDK Quickstart (Sample)**  
-  A concise onboarding guide designed to get developers productive in minutes.  
-  → Coming soon
+- **SDK Guide**  
+  Contributed the OpenText Documentum Content Management SDK in 2009 - 2013 called the Webtop Web Development Kit.
 
+- **AI Assistant Documentation**
+  Created a section to describe how to enable AI in enterprise applications and use it to perform actions. I received good feedback on this content from upper management.
+
+- **Base-level Server Configurations**
+  Authored and maintained content for base-level configurations dealing with backups and restores, among other features. I was responsible for maintaining and creating content in this section.
+
+- **Cloud Resilience**
+  Authored content to help customers make their data cloud resilient.
+
+- **API & Integration Documentation**  
+  Clear, scenario-driven guides that help developers build faster and with confidence. I worked on API and PowerShell documentation that enable developers to perform actions outside the application UI via the command line.
+
+- **System Workflows & Architecture Overviews**  
+  Translating complex internal systems into digestible, visual-first explanations.
+
+- **Release Notes & Product Updates**  
+  High-signal, low-noise updates that drive adoption and reduce support load.
+
+- **Troubleshooting & Operational Guides**  
+  Practical, actionable content in the form of quick-turnaround Knowledge Base articles.
+
+- **SQL Server-related Backup and Restore Configuration**
+  Most customers back up to SQL Server databases. I recently started creating and updating configuration procedures for SQL Server-related backups and restores.
+
+- **Old LinkedIn article**
+  → [Artificial Intelligence and Us](https://www.linkedin.com/pulse/artificial-intelligence-us-malavika-rao/?trackingId=IP5mtGYQRbShWAAVXYuaxw%3D%3D)
+
+
+<!---
 ---
 
 ## 🏗️ System Architecture & Internal Tools
@@ -30,7 +54,7 @@ A curated selection of writing samples that demonstrate my range across technica
   → Coming soon
 
 - **Admin & Configuration Guide**  
-  Clear, scenario-based instructions for configuring complex internal tools.  
+  Clear, scenario-based instructions for configuring complex server-based actions.  
   → Coming soon
 
 ---
@@ -52,3 +76,7 @@ A curated selection of writing samples that demonstrate my range across technica
 - **Automated YAML-to-Markdown Conversion**  
   Demonstrates workflow automation for faster doc production.  
   → Coming soon
+
+--->
+
+[def]: https://www.linkedin.com/pulse/artificial-intelligence-us-malavika-rao/?trackingId=IP5mtGYQRbShWAAVXYuaxw%3D%3D

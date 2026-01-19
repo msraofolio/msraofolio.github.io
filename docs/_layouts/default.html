@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/custom.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -35,6 +36,13 @@
         </li>
 
         <li>
+          <a href="{{ '/case-studies/api-integration/' | relative_url }}"
+             class="{% if page.url == '/case-studies/api-integration/' %}active{% endif %}">
+             API Integration
+          </a>
+        </li>
+
+<!---        <li>
           <a href="{{ '/how-i-work/' | relative_url }}"
              class="{% if page.url == '/how-i-work/' %}active{% endif %}">
              How I Work
@@ -70,7 +78,7 @@
              class="{% if page.url == '/case-studies/template/' %}active{% endif %}">
              Template
           </a>
-        </li>
+        </li>  --->
       </ul>
     </nav>
 
