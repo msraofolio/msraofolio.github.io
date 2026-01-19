@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Portfolio
+redirect_from:
+  - /portfolio.html
 ---
 
 # Portfolio
