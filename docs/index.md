@@ -3,44 +3,23 @@ layout: default
 title: Home
 ---
 
-# Malavika Rao  
-### Senior Technical Writer · Docs-as-Code Specialist · AI-Driven Documentation
+## About Me
 
-I create clear, scalable, and user‑centered documentation for complex systems — from internal tools and APIs to enterprise SaaS platforms. My work blends technical depth, information architecture, and a strong focus on developer empathy.
+I create documentation that drives product adoption and reduces support costs across complex enterprise applications.
 
-My approach is shaped by:
-- 15+ years in enterprise SaaS applications and internal tooling  
-- Deep experience embedding documentation into Agile workflows  
-- A docs-as-code mindset grounded in Git, Markdown, and automation  
-- A growing focus on AI-assisted documentation and content intelligence  
+Key Accomplishments:
 
----
+* AI Assistant Documentation – Developed content for enterprise AI features that received strong upper management approval
+* API & Integration Guides – Built scenario-driven documentation enabling developers to work confidently with APIs and PowerShell outside the UI
 
-## My Work Across Different Companies
+Core Expertise:
 
-- **AI Assistant Documentation**
-  Created a section to describe how to enable AI in enterprise applications and use it to perform actions. I received good feedback on this content from upper management.
-
-- **Base-level Server Configurations**
-  Authored and maintained content for base-level configurations dealing with backups and restores, among other features. I was responsible for maintaining and creating content in this section.
-
-- **Cloud Resilience**
-  Authored content to help customers make their data cloud resilient.
-
-- **API & Integration Documentation**  
-  Clear, scenario-driven guides that help developers build faster and with confidence. I worked on API and PowerShell documentation that enable developers to perform actions outside the application UI via the command line.
-
-- **System Workflows & Architecture Overviews**  
-  Translating complex internal systems into digestible, visual-first explanations.
-
-- **Release Notes & Product Updates**  
-  High-signal, low-noise updates that drive adoption and reduce support load.
-
-- **Troubleshooting & Operational Guides**  
-  Practical, actionable content in the form of quick-turnaround Knowledge Base articles.
-
-- **SQL Server-related Backup and Restore Configuration**
-  Most customers back up to SQL Server databases. I recently started creating and updating configuration procedures for SQL Server-related backups and restores.
+* Enterprise Infrastructure – Server configurations, backups/restores, and cloud resilience solutions
+* Developer Documentation – Clear API and command-line guides that accelerate development
+* System Architecture – Translating complex internal systems into visual, digestible explanations
+* Release Communications – High-impact product updates that drive adoption
+* Troubleshooting Content – Quick-turnaround Knowledge Base articles for operational support
+* Database Systems – SQL Server backup and restore procedures for enterprise customers
 
 ---
 
