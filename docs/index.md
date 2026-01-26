@@ -46,8 +46,7 @@ My approach is shaped by:
 
 ## Featured Work
 
-- [API Integration Case Study](/case-studies/api-integration/)  
-- [Troubleshooting Guide](/case-studies/troubleshooting-guide/)  
+- [API Integration Case Study](/case-studies/api-integration/)   
 - [Portfolio Overview](/portfolio/)
 
 ---
