@@ -11,3 +11,5 @@ section, .content { float: none !important; width: auto !important; }
   .layout { flex-direction: column; }
   .sidebar { position: static; height: auto; }
 }
+
+
