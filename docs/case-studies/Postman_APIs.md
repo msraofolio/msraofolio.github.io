@@ -3,7 +3,7 @@ layout: default
 title: Postman_APIs
 ---
 
-# Testing Public APIs Using Postman
+# Using APIs to Integrate Applications and Websites
 
 APIs are the basis on which the entire world’s applications talk to each other and enable people to seamlessly perform actions on the internet.
 
