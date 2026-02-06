@@ -1,15 +1,18 @@
 /* Overrides to prevent navigation/content overlap */
 /* Ensure our layout wins over theme defaults */
-.wrapper, .layout { max-width: none; width: 100%; }
+.wrapper, .layout { max-width: none !important; width: 100% !important; }
 header { position: static !important; width: 100% !important; }
 footer { position: static !important; }
 section, .content { float: none !important; width: auto !important; }
-.layout { display: flex; gap: 1.5rem; }
-.sidebar { flex: 0 0 240px; position: sticky; top: 70px; height: calc(100vh - 70px); overflow-y: auto; }
-.content { flex: 1 1 auto; max-width: 820px; padding: 2rem; }
+.layout { display: flex !important; gap: 0 !important; max-width: 1600px; margin: 0 auto; }
+
+@media screen and (max-width: 1200px) {
+  .toc-sidebar { display: none !important; }
+}
+
 @media screen and (max-width: 800px) {
-  .layout { flex-direction: column; }
-  .sidebar { position: static; height: auto; }
+  .layout { flex-direction: column !important; }
+  .sidebar-column { position: static !important; height: auto !important; }
 }
 
 
