@@ -9,8 +9,10 @@ APIs are used to transfer data between two applications. To test and create accu
 
 1. From the [Postman website](https://www.postman.com/), download and configure the Postman desktop application.
 
-    > [!NOTE]
-    > While configuring the desktop application, follow the wizard instructions to create your account.
+    <div class="note">
+    <strong>Note</strong>
+    While configuring the desktop application, follow the wizard instructions to create your account.
+    </div>
 
 2. On the Postman desktop application, perform the following steps:
 
