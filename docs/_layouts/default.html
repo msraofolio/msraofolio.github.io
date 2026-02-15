@@ -40,17 +40,42 @@
         </li>
 
         <li>
-          <a href="{{ '/case-studies/api-integration/' | relative_url }}"
-             class="{% if page.url == '/case-studies/api-integration/' %}active{% endif %}">
-             API Guide
+          <a href="{{ '/case-studies/api-about/' | relative_url }}"
+             class="{% if page.url == '/case-studies/api-about/' %}active{% endif %}">
+             About APIs
           </a>
-        </li>
-
-        <li>
-          <a href="{{ '/case-studies/Postman_APIs/' | relative_url }}"
-             class="{% if page.url == '/case-studies/Postman_APIs/' %}active{% endif %}">
-             APIs for Website and Application Integration
-          </a>
+          <ul class="nav-children">
+            <li>
+              <a href="{{ '/case-studies/api-integration/' | relative_url }}"
+                 class="{% if page.url == '/case-studies/api-integration/' %}active{% endif %}">
+                 API Doc Recommendations
+              </a>
+            </li>
+            <li>
+              <a href="{{ '/case-studies/Postman_APIs/' | relative_url }}"
+                 class="{% if page.url == '/case-studies/Postman_APIs/' %}active{% endif %}">
+                 APIs for Website Integration
+              </a>
+            </li>
+            <li>
+              <a href="{{ '/case-studies/api-get-requests/' | relative_url }}"
+                 class="{% if page.url == '/case-studies/api-get-requests/' %}active{% endif %}">
+                 GET Requests
+              </a>
+            </li>
+            <li>
+              <a href="{{ '/case-studies/api-post-put-requests/' | relative_url }}"
+                 class="{% if page.url == '/case-studies/api-post-put-requests/' %}active{% endif %}">
+                 POST and PUT Requests
+              </a>
+            </li>
+            <li>
+              <a href="{{ '/case-studies/api-delete-requests/' | relative_url }}"
+                 class="{% if page.url == '/case-studies/api-delete-requests/' %}active{% endif %}">
+                 DELETE Requests
+              </a>
+            </li>
+          </ul>
         </li>
 <!---        <li>
           <a href="{{ '/how-i-work/' | relative_url }}"
