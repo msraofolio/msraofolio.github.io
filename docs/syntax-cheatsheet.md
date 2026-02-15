@@ -96,6 +96,23 @@ Proceed carefully. There may be risks or limitations.
 
 ---
 
+### Reader Note (Purple)
+Use for editorial or author-to-reader commentary.
+
+```html
+<div class="reader-note">
+<strong>Note to the Reader</strong>
+Your editorial note or contextual information for the reader.
+</div>
+```
+
+<div class="reader-note">
+<strong>Note to the Reader</strong>
+Your editorial note or contextual information for the reader.
+</div>
+
+---
+
 ## Typography
 
 ### Headings

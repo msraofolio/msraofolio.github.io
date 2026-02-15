@@ -5,7 +5,10 @@ title: About APIs
 
 # About APIs
 
-**Note to the Reader**: This section contains highly generic content about REST APIs. Based on the type of data and type of query, the API documentation will vary.
+<div class="reader-note">
+<strong>Note to the Reader</strong>
+This section contains highly generic content about REST APIs. Based on the type of data and type of query, the API documentation will vary.
+</div>
 
 Application Programming Interfaces (APIs) are the basis on which the entire world’s applications talk to each other and enable people to seamlessly perform actions on the internet.
 
