@@ -340,6 +340,72 @@ blockquote {
 }
 
 /* ========================================
+   Testimonials
+   ======================================== */
+
+.testimonial {
+  position: relative;
+  background: linear-gradient(135deg, #f8fbff 0%, #ffffff 100%);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl) var(--space-xl) var(--space-xl) var(--space-2xl);
+  margin-bottom: var(--space-xl);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  font-style: italic;
+  color: var(--color-text-light);
+  line-height: var(--line-height-relaxed);
+}
+
+.testimonial:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.testimonial::before {
+  content: '\201C';
+  position: absolute;
+  top: -0.15em;
+  left: 0.3em;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 4rem;
+  font-style: normal;
+  color: var(--color-accent);
+  opacity: 0.4;
+  line-height: 1;
+}
+
+.testimonial::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-accent) 0%, transparent 100%);
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+}
+
+.testimonial p {
+  margin-bottom: var(--space-md);
+  max-width: none;
+}
+
+.testimonial p:last-child {
+  margin-bottom: 0;
+}
+
+.testimonial .testimonial-author {
+  display: block;
+  margin-top: var(--space-lg);
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  color: var(--color-primary);
+  letter-spacing: 0.02em;
+}
+
+/* ========================================
    Lists
    ======================================== */
 
@@ -497,6 +563,34 @@ ul ul, ol ol, ul ol, ol ul {
   background-color: var(--color-primary);
   color: white;
   font-weight: 600;
+}
+
+/* Nested navigation for child topics */
+.sidebar .nav-children {
+  list-style: none;
+  margin: var(--space-xs) 0 var(--space-sm) 0;
+  padding-left: var(--space-md);
+  border-left: 2px solid var(--color-border-light);
+}
+
+.sidebar .nav-children li {
+  margin-bottom: 0;
+}
+
+.sidebar .nav-children a {
+  font-size: var(--font-size-xs);
+  padding: var(--space-xs) var(--space-sm);
+  color: var(--color-text-muted);
+}
+
+.sidebar .nav-children a:hover {
+  color: var(--color-primary);
+  background-color: var(--color-bg-alt);
+}
+
+.sidebar .nav-children a.active {
+  background-color: var(--color-primary);
+  color: white;
 }
 
 .sidebar h2, .sidebar h3, .sidebar h4 {

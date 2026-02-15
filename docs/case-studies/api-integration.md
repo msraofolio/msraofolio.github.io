@@ -4,9 +4,7 @@ title: Effective API
 heading: APIs to Enable Application Connections
 ---
 
-# API Guide
-
-Well-documented APIs are the basis on which the entire world’s applications talk to each other. This is why people can seamlessly perform actions online, such as banking and booking airline tickets.
+# API Document Recommendations
 
 Well-documented APIs help developers in companies dealing with data and data-driven services connect stand-alone applications when information and processes must flow between them. Using APIs enables developers to work securely without exposing code or protected data, while also bridging the gap between stand-alone applications.
 For example, a weather app on your phone would connect with the National Weather Service to display real-time weather data. In this case, the weather app APIs connect to the National Weather Service API server to provide real-time weather updates.
