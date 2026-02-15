@@ -11,7 +11,7 @@ A curated selection of writing samples that demonstrate my range across technica
 
 - **About APIs**  
   
-  This section describes APIs and how to test them using Postman and how to execute APIs.  
+  This section describes APIs, how to test them with Postman, and how to execute them. 
   
   * [About APIs](/case-studies/api-about/)
 
