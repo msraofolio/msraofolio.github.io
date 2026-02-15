@@ -340,6 +340,49 @@ blockquote {
 }
 
 /* ========================================
+   Reader Note (Editorial Callout)
+   ======================================== */
+
+.reader-note {
+  position: relative;
+  padding: var(--space-lg) var(--space-xl);
+  margin: var(--space-xl) 0 var(--space-2xl) 0;
+  background: linear-gradient(135deg, #faf5ff 0%, #f5f3ff 50%, #ede9fe 100%);
+  border: 1px dashed #b794f4;
+  border-radius: var(--radius-lg);
+  color: var(--color-text-light);
+  font-style: italic;
+  line-height: var(--line-height-relaxed);
+}
+
+.reader-note::before {
+  content: '\270E';
+  position: absolute;
+  top: -0.75em;
+  left: 1.25em;
+  font-size: 1.5rem;
+  font-style: normal;
+  background: linear-gradient(135deg, #faf5ff 0%, #ede9fe 100%);
+  padding: 0 var(--space-sm);
+  color: #805ad5;
+}
+
+.reader-note strong:first-child {
+  display: block;
+  margin-bottom: var(--space-sm);
+  font-style: normal;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b46c1;
+}
+
+.reader-note p:last-child {
+  margin-bottom: 0;
+}
+
+/* ========================================
    Testimonials
    ======================================== */
 
