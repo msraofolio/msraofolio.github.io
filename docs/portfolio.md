@@ -9,11 +9,11 @@ redirect_from:
 
 A curated selection of writing samples that demonstrate my range across technical, architectural, and user-facing documentation. Each piece reflects my focus on clarity, structure, and developer empathy.
 
-- **API Integration Guide**  
+- **About APIs**  
   
-  A comparison between poor API documentation and good API documentation.  
+  This section describes APIs and how to test them using Postman and how to execute APIs.  
   
-  * [Read the case study](/case-studies/api-integration/)
+  * [About APIs](/case-studies/api-about/)
 
 - **SDK Guide**  
   
