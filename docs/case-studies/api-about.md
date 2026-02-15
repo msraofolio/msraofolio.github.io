@@ -5,6 +5,8 @@ title: About APIs
 
 # About APIs
 
+**Note to the Reader**: This section contains highly generic content about REST APIs. Based on the type of data and type of query, the API documentation will vary.
+
 Application Programming Interfaces (APIs) are the basis on which the entire world’s applications talk to each other and enable people to seamlessly perform actions on the internet.
 
 Well-documented APIs help developers in companies dealing with data and data-driven services connect stand-alone applications when information and processes must flow between them. Using APIs enables developers to work securely without exposing code or protected data, while also bridging the gap between stand-alone applications.
@@ -23,7 +25,7 @@ Using APIs, you can perform the following operations:
 
 - **DELETE**: removes a specified resource from the server.
 
-## API Elements
+## API Document Elements
 
 A standard API document has to have the following sections:
 
@@ -31,7 +33,7 @@ A standard API document has to have the following sections:
 
 - Permissions: The permissions required to execute the API query.
 
-- Request: The structure of the request with the required API endpoint. The request can be in the following syntaxes:
+- Request: The structure of the request with the required API endpoint. The request can be in the following formats:
 
     - HTTP
 
@@ -51,4 +53,4 @@ A standard API document has to have the following sections:
 
 - Example Request - Add an example with the request syntax, parameters, and headers.
 
-- Example Response - Add an example with the response and parameters, if any.
+- Example Response - Add an example with the response and any parameters.
