@@ -6,10 +6,7 @@ heading: APIs to Enable Application Connections
 
 # API Document Recommendations
 
-Well-documented APIs help developers in companies dealing with data and data-driven services connect stand-alone applications when information and processes must flow between them. Using APIs enables developers to work securely without exposing code or protected data, while also bridging the gap between stand-alone applications.
-For example, a weather app on your phone would connect with the National Weather Service to display real-time weather data. In this case, the weather app APIs connect to the National Weather Service API server to provide real-time weather updates.
-
-Developers regularly use APIs but often struggle with authentication, troubleshooting, and query formulation—problems that stem primarily from poor documentation.
+Well-documented APIs are essential for enabling developers to easily connect standalone applications when information and processes must flow between them. However, developers often struggle with authentication, troubleshooting, and query formulation --- problems that stem primarily from poor documentation.
 
 ---
 
@@ -17,23 +14,15 @@ Developers regularly use APIs but often struggle with authentication, troublesho
 
 Poorly documented APIs lack essential information that developers need to execute API queries quickly and successfully.
 
-## Missing Header Information
+ - **Missing Header Information**: If API documentation headers lack accurate software versions, rate limits, or formats, developers submit invalid API requests that fail.
 
-If API documentation headers lack accurate software versions, rate limits, or formats, developers submit invalid API requests that fail.
+    Authentication is part of the API header; if incorrect, authentication fails.
 
-Authentication is part of the API header; if incorrect, authentication fails.
+- **Incomplete Attributes or Parameters List**: If the API documentation does not exhaustively list all applicable parameters, developers cannot fully use the API's capabilities.
 
-## Incomplete Attributes or Parameters List
+- **Missing Examples**: Examples are very important to developers. It helps them craft their own unique API query. Examples are useful for demonstrating the API's capabilities across different environments and contexts. Without examples, developers are less confident in their ability to build a successful API query.
 
-If the API documentation does not exhaustively list all applicable parameters, developers cannot fully use the API's capabilities.
-
-## Missing Examples
-
-Examples are very important to developers. It helps them craft their own unique API query. Examples are useful for demonstrating the API's capabilities across different environments and contexts. Without examples, developers are less confident in their ability to build a successful API query.
-
-## Vague Error Messages
-
-Vague error messages hinder developers' ability to troubleshoot or fine-tune APIs. Add details to code or API docs.
+- **Vague Error Messages**: Vague error messages hinder developers' ability to troubleshoot or fine-tune APIs. Add details to code or API docs.
 
 ---
 
@@ -41,21 +30,15 @@ Vague error messages hinder developers' ability to troubleshoot or fine-tune API
 
 There are many solutions to help developers use APIs effectively and exhaustively. These solutions, such as improved software development lifecycles, heightened technical writing team awareness, and the incorporation of Artificial Intelligence, enhance understanding, reduce errors, and streamline integration for developers.
 
-## Modifying Software Development Lifecycles
+- **Modifying Software Development Lifecycles**: It is very common for API developers to hurriedly add content and parameters to the code. Allowing more time for these developers to write effective API code results in more reliable, clearer APIs, reducing future errors and misunderstandings.
 
-It is very common for API developers to hurriedly add content and parameters to the code. Allowing more time for these developers to write effective API code results in more reliable, clearer APIs, reducing future errors and misunderstandings.
+- **Technical Writing Team Awareness**: Technical writers can help improve API usage by making documentation clearer and reducing developer confusion. Testing APIs helps writers understand what developers are looking for, enabling more accurate, user-focused content. Enhancing API documentation templates to include sections such as Error handling, Rate limits, Versioning, Workflows, and use cases, and Changelogs ensures developers can more easily integrate and maintain APIs, leading to fewer support requests and smoother adoption.
 
-## Technical Writing Team Awareness
-
-Technical writers can help improve API usage by making documentation clearer and reducing developer confusion. Testing APIs helps writers understand what developers are looking for, enabling more accurate, user-focused content. Enhancing API documentation templates to include sections such as Error handling, Rate limits, Versioning, Workflows, and use cases, and Changelogs ensures developers can more easily integrate and maintain APIs, leading to fewer support requests and smoother adoption.
-
-## Artificial Intelligence in the Code Building Process
-
-Harnessing AI in the code-building process speeds up and simplifies the creation of API documentation, helping developers produce comprehensive, accurate resources faster. AI can prompt effective templates, fill in missing information, and automatically create clear descriptions for errors and parameters, reducing manual effort and improving overall documentation quality.
+- **Artificial Intelligence in the Code Building Process**: Harnessing AI in the code-building process speeds up and simplifies the creation of API documentation, helping developers produce comprehensive, accurate resources faster. AI can prompt effective templates, fill in missing information, and automatically create clear descriptions for errors and parameters, reducing manual effort and improving overall documentation quality.
 
 ---
 
 # Impact of Effective API Documentation
 
-Effective API documentation helps developers build complex integrations and supports the Internet of Things. It also reduces customer support requests, allowing engineers to focus on resolving functionality issues instead of searching for missing information.
+Effective API documentation helps developers build complex integrations and support the Internet of Things (IoT). It also reduces customer support requests, allowing engineers to focus on resolving functionality issues instead of searching for missing information.
 

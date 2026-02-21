@@ -448,6 +448,51 @@ blockquote {
   letter-spacing: 0.02em;
 }
 
+.testimonial .testimonial-close-quote {
+  display: block;
+  text-align: right;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 4rem;
+  font-style: normal;
+  color: var(--color-accent);
+  opacity: 0.4;
+  line-height: 0.5;
+  margin-top: var(--space-md);
+  margin-bottom: -0.2em;
+}
+
+.testimonial-commvault .testimonial-close-quote {
+  color: #1a73a7;
+}
+
+.testimonial-koreai .testimonial-close-quote {
+  color: #0f8a5f;
+}
+
+.testimonial-commvault::before {
+  color: #1a73a7;
+}
+
+.testimonial-commvault::after {
+  background: linear-gradient(90deg, #1a73a7 0%, transparent 100%);
+}
+
+.testimonial-commvault .testimonial-author {
+  color: #1a73a7;
+}
+
+.testimonial-koreai::before {
+  color: #0f8a5f;
+}
+
+.testimonial-koreai::after {
+  background: linear-gradient(90deg, #0f8a5f 0%, transparent 100%);
+}
+
+.testimonial-koreai .testimonial-author {
+  color: #0f8a5f;
+}
+
 /* ========================================
    Lists
    ======================================== */
