@@ -13,21 +13,25 @@ I am eager to take on a leadership role to support my professional growth and en
 
 ## Testimonials
 
-<div class="testimonial">
+<div class="testimonial testimonial-commvault">
 Malavika proved herself to be one of the most dependable and thoughtful professionals on my team. Her attitude is exceptional: steady, positive, and grounded in a genuine commitment to producing excellent work.
 
 She knows how to build strong, collaborative relationships across multiple teams. She listens carefully, asks the right questions, and works skillfully with even the most challenging subject matter experts. She gathers information with care and turns it into documentation that reflects clarity and technical competence.
+<span class="testimonial-close-quote">&rdquo;</span>
+<span class="testimonial-author">— Commvault Documentation Manager</span>
 </div>
 
-<div class="testimonial">
+<div class="testimonial testimonial-koreai">
 She comes with a lot of passion for writing and does not publish her articles unless her work is perfect for the intended audience. She is very hands on and does not complete her work unless she has experienced the product herself just like her customers would. Her attention to detail and her ability to quickly pick up any technical feature in a product have been her great skill sets and also reflects well in her work.
+<span class="testimonial-close-quote">&rdquo;</span>
+<span class="testimonial-author">— Kore.ai Product Manager</span>
 </div>
 
 ---
 
-## Key Accomplishments:
+## Key Accomplishments
 
-- **Leadership & Team Development**: Led and trained the foundational server-side documentation team at Commvault and was promoted twice in seven years based on technical excellence and cross-functional collaboration. Previously promoted to Lead Technical Writer at Disney based on high-quality documentation delivery.
+<!-- - **Leadership & Team Development**: Led and trained the foundational server-side documentation team at Commvault and was promoted twice in seven years based on technical excellence and cross-functional collaboration. Previously promoted to Lead Technical Writer at Disney based on high-quality documentation delivery. -->
 
 - **AI-Driven Efficiency Gains**: Reduced documentation delivery time by 50% by leveraging ChatGPT and Copilot to summarize technical demos, automate documentation templates, and generate code examples. Automated broken-link resolution for 20+ deprecated pages using Python scripts, eliminating weeks of manual validation.
 
@@ -41,7 +45,7 @@ She comes with a lot of passion for writing and does not publish her articles un
 
 ---
 
-## Core Expertise:
+## Core Expertise
 
 * Enterprise Infrastructure – Server configurations, backups/restores, and cloud resilience solutions
 

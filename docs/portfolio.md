@@ -9,53 +9,53 @@ redirect_from:
 
 A curated selection of writing samples that demonstrate my range across technical, architectural, and user-facing documentation. Each piece reflects my focus on clarity, structure, and developer empathy.
 
-- **About APIs**  
-  
-  This section describes APIs, how to test them with Postman, and how to execute them. 
-  
+- **About APIs**
+
+  This section describes APIs, how to test them with Postman, and how to execute them.
+
   * [About APIs](/case-studies/api-about/)
 
-- **SDK Guide**  
-  
-  Contributed the OpenText Documentum Content Management SDK in 2009 - 2013 called the Webtop Web Development Kit.
-  
-  * Web Development Kit Deployment Guide
-  
-  * Web Development Kit Development Guide
-  
-  * Web Development Kit Reference Guide
-  
-  * Web Development Kit Release Notes
-
 - **AI Assistant Documentation**
-  
+
   Created a section to describe how to enable AI in enterprise applications and use it to perform actions. I received good feedback on this content from upper management.
-  
+
   * Commvault [Arlie AI Assistant](https://documentation.commvault.com/11.42/software/arlie_ai_assistant.html)
 
+- **API & Integration Documentation**
+
+  Clear, scenario-driven guides that help developers build faster and with confidence. I worked on API and PowerShell documentation that enabled developers to perform actions outside the application UI via the command line.
+
+  * [Commvault PowerShell Module](https://documentation.commvault.com/11.42/software/commvault_powershell_module.html)
+
+  * [Commvault REST API Reference](https://documentation.commvault.com/11.42/software/rest_api_reference.html)
+
 - **Base-level Server Configurations**
-  
+
   Authored and maintained content for base-level configurations dealing with backups and restores, among other features. I was responsible for maintaining and creating content in this section.
-  
+
   * Commvault [CommCell Configuration](https://documentation.commvault.com/11.42/software/commcell_configuration.html)
 
 - **Device Install, Backup, and Restore**
-  
+
   Created topics and maintained content for installing, backing up, and restoring laptops.
-  
+
   * Commvault [Laptop](https://documentation.commvault.com/11.42/software/laptop.html)
 
-- **API & Integration Documentation**  
-  
-  Clear, scenario-driven guides that help developers build faster and with confidence. I worked on API and PowerShell documentation that enabled developers to perform actions outside the application UI via the command line.
-  
-  * [Commvault PowerShell Module](https://documentation.commvault.com/11.42/software/commvault_powershell_module.html)
- 
-  * [Commvault REST API Reference](https://documentation.commvault.com/11.42/software/rest_api_reference.html)
+<!--- **Old LinkedIn article**
 
-- **Old LinkedIn article**
- 
-  * [Artificial Intelligence and Us][def]
+  * [Artificial Intelligence and Us][def] -->
+
+- **SDK Guide**
+
+  Contributed the OpenText Documentum Content Management SDK in 2009 - 2013 called the Webtop Web Development Kit.
+
+  * Web Development Kit Deployment Guide
+
+  * Web Development Kit Development Guide
+
+  * Web Development Kit Reference Guide
+
+  * Web Development Kit Release Notes
 
 
 <!---
