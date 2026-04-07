@@ -9,16 +9,12 @@ When you own an iPhone and take many photos and videos, the **iPhone Storage Ful
 
 For example, if your iPhone has 128 GB of storage and your media and files exceed that limit, the **iPhone Storage Full** message appears.
 
----
-
 ## Prerequisites
 
 Before you begin, ensure you have the following:
 
 - An Apple iPhone
 - A cloud storage account (such as Google Photos)
-
----
 
 ## Procedure
 
@@ -31,19 +27,13 @@ Create a cloud storage account such as [Google Photos](https://photos.google.com
 Cloud storage lets you save your photos and videos online so they no longer take up space on your iPhone.
 </div>
 
----
-
 ### Step 2: Back up your media to cloud storage
 
 Upload your photos and videos from your iPhone to your cloud storage account. Verify that all media has been successfully backed up before proceeding.
 
----
-
 ### Step 3: Delete backed-up media from your iPhone
 
 After confirming your media is safely stored in the cloud, delete those photos and videos from your iPhone to free up local storage space.
-
----
 
 ### Step 4: Review iPhone storage recommendations
 
@@ -62,21 +52,15 @@ After confirming your media is safely stored in the cloud, delete those photos a
 
    - **Review Large Attachments:** Swipe and delete large text message attachments to recover additional storage.
 
----
-
 ### Step 5: Manually offload or delete unused apps
 
 Review the list of installed apps, displayed in descending order by size. Offload or delete any apps you no longer need to further increase available storage.
 
   ![Individual offload](/images/Individual_Offload.png)
 
----
-
 ## Results
 
 After completing the steps above, your iPhone storage space will increase significantly. If storage issues persist, consider resetting your iPhone.
-
----
 
 ## References
 
