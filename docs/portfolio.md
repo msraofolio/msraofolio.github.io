@@ -33,7 +33,7 @@ A curated selection of writing samples that demonstrate my range across technica
 
   Authored and maintained content for base-level configurations dealing with backups and restores, among other features. I was responsible for maintaining and creating content in this section.
 
-  * Commvault [CommCell Configuration](https://documentation.commvault.com/11.42/software/commcell_configuration.html)
+  * Commvault [CommCell Configuration](https://documentation.commvault.com/v11/software/commcell_configuration.html)
 
 - **Device Install, Backup, and Restore**
 
