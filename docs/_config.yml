@@ -9,6 +9,7 @@ nav:
   - Case Studies: case-studies/index.md
   - How I Work: how-i-work.md
   - Contact: contact.md
+  - Contact card: malavika.vcf
 
 # Markdown + Jekyll settings
 markdown: kramdown
