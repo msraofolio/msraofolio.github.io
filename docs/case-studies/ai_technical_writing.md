@@ -33,7 +33,7 @@ Most specs share the same problems:
 - No formats, units, limits, or defaults
 - Undocumented edge cases and state rules
 
-**Detailed guide:** [Troubleshooting: Incomplete API Specifications](/case-studies/swagger_api.md) walks through these symptoms using the Swagger Petstore spec. Each symptom includes the cause, the solution, and the result.
+**Detailed guide:** [Troubleshooting: Incomplete API Specifications]({% link case-studies/swagger_api.md %}) walks through these symptoms using the Swagger Petstore spec. Each symptom includes the cause, the solution, and the result.
 
 ## The workflow
 
@@ -130,4 +130,3 @@ The writer improves the documentation inside the spec. The writer does not chang
 ## Summary
 
 The spec is the documentation that every tool reads. Audit it with a linter. Test the API to learn the truth. Use AI to draft and testing to verify. Then fix the gaps in the spec itself, so every reader benefits.
-
