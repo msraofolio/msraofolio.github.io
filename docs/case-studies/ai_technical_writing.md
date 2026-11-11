@@ -33,7 +33,7 @@ Most specs share the same problems:
 - No formats, units, limits, or defaults
 - Undocumented edge cases and state rules
 
-**Detailed guide:** [Troubleshooting: Incomplete API Specifications](/case-studies/api-spec-troubleshooting/) walks through these symptoms using the Swagger Petstore spec. Each symptom includes the cause, the solution, and the result.
+**Detailed guide:** [Troubleshooting: Incomplete API Specifications](/case-studies/swagger_api.md) walks through these symptoms using the Swagger Petstore spec. Each symptom includes the cause, the solution, and the result.
 
 ## The workflow
 
