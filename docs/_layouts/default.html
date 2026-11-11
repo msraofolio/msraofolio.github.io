@@ -84,6 +84,21 @@
             </li>
           </ul>
         </li>
+
+        <li>
+          <a href="{{ '/case-studies/ai_technical_writing/' | relative_url }}"
+             class="{% if page.url == '/case-studies/ai_technical_writing/' %}active{% endif %}">
+             API Specifications as Documentation
+          </a>
+          <ul class="nav-children">
+            <li>
+              <a href="{{ '/case-studies/swagger_api/' | relative_url }}"
+                 class="{% if page.url == '/case-studies/swagger_api/' %}active{% endif %}">
+                 Troubleshooting Incomplete Swagger APIs
+              </a>
+            </li>
+          </ul>
+        </li>
 <!---        <li>
           <a href="{{ '/how-i-work/' | relative_url }}"
              class="{% if page.url == '/how-i-work/' %}active{% endif %}">
@@ -187,6 +202,53 @@
             targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
           }
         });
+      });
+    });
+  </script>
+
+  <dialog class="image-lightbox" aria-label="Full-size image viewer">
+    <button class="image-lightbox-close" type="button" aria-label="Close full-size image">&times;</button>
+    <img class="image-lightbox-image" alt="">
+  </dialog>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const content = document.querySelector('.content');
+      const lightbox = document.querySelector('.image-lightbox');
+
+      if (!content || !lightbox || typeof lightbox.showModal !== 'function') return;
+
+      const lightboxImage = lightbox.querySelector('.image-lightbox-image');
+      const closeButton = lightbox.querySelector('.image-lightbox-close');
+
+      content.querySelectorAll('img').forEach(image => {
+        if (image.closest('a')) return;
+
+        const link = document.createElement('a');
+        link.href = image.currentSrc || image.src;
+        link.className = 'image-zoom-link';
+        link.setAttribute('aria-label', `View full-size image: ${image.alt || 'image'}`);
+        image.parentNode.insertBefore(link, image);
+        link.appendChild(image);
+
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          lightboxImage.src = link.href;
+          lightboxImage.alt = image.alt;
+          lightbox.showModal();
+        });
+      });
+
+      closeButton.addEventListener('click', function() {
+        lightbox.close();
+      });
+
+      lightbox.addEventListener('click', function(event) {
+        if (event.target === lightbox) lightbox.close();
+      });
+
+      lightbox.addEventListener('close', function() {
+        lightboxImage.removeAttribute('src');
       });
     });
   </script>
