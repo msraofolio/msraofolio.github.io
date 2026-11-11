@@ -78,8 +78,6 @@ I use AI for speed and testing for accuracy:
 - I check every claim against the spec, the code, or a live call.
 - I run every code sample before it ships.
 
-**Detailed guide:** [How Technical Writers Use AI to Fill the Gaps in Incomplete API Specs](/case-studies/ai-and-incomplete-api-specs/)
-
 ## Write descriptions for AI agents
 
 AI agents increasingly call APIs on their own. Some teams generate Model Context Protocol (MCP) tools directly from OpenAPI specs. In that case, the spec's descriptions become instructions for the agent.
