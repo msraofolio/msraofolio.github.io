@@ -977,6 +977,62 @@ img {
   border-radius: var(--radius-md);
 }
 
+.image-zoom-link {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  border-bottom: 0;
+  cursor: zoom-in;
+}
+
+.image-zoom-link:hover {
+  border-bottom: 0;
+}
+
+.image-zoom-link:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+.image-lightbox {
+  position: fixed;
+  inset: 0;
+  width: fit-content;
+  max-width: 96vw;
+  max-height: 92vh;
+  margin: auto;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  background: transparent;
+}
+
+.image-lightbox::backdrop {
+  background: rgba(15, 23, 42, 0.88);
+}
+
+.image-lightbox-image {
+  max-width: 96vw;
+  max-height: 92vh;
+  object-fit: contain;
+  box-shadow: var(--shadow-xl);
+}
+
+.image-lightbox-close {
+  position: absolute;
+  top: -2.75rem;
+  right: 0;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--color-text);
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
 figure {
   margin: var(--space-xl) 0;
 }
